@@ -73,6 +73,7 @@ fun CartScreen(navController: NavController, sharedViewModel: SharedViewModel) {
     }
 }
 
+// Заголовок корзины
 @Composable
 fun CartHeader(navController: NavController) {
     Box(
@@ -110,6 +111,7 @@ fun CartHeader(navController: NavController) {
     }
 }
 
+// Настройка отображения элементов в корзине
 @Composable
 fun CartList(navController: NavController) {
     Box(
@@ -187,6 +189,7 @@ fun CartList(navController: NavController) {
     Divider(color = Color.DarkGray, thickness = 1.dp)
 }
 
+// Отображение иконок в приложении
 @Composable
 fun BoxWithRes(
     resId: Int,

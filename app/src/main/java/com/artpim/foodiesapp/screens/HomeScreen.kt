@@ -135,6 +135,7 @@ fun ExtendedCartButton(
     }
 }
 
+// Функция отображения карточки продукта в списке на главном экране
 @Composable
 fun ShowProducts(
     productsItem: ProductsItem,
@@ -215,6 +216,7 @@ fun ShowProducts(
 
 }
 
+// Заголовок на главном экране
 @Composable
 fun PizzaHeader() {
     Box(
@@ -253,6 +255,7 @@ fun PizzaHeader() {
     }
 }
 
+// Отображение списка категорий
 @Composable
 fun CustomCategory(
     name: String,
